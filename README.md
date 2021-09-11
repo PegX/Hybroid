@@ -13,5 +13,5 @@ Tensorflow
 ### Program Code feature extraction
 Hybroid extracts program code feature from Android apps directly. First of all, we extract bytecode(instructions, control flow graph, function call graph and so on) from the DEX file of Android application, and then we use the techqniues from the natural language processing(NLP) to cnovert the instruction(opcode) inside of bytecode to vector by using the variant of word2vec method. After we get the instruction2vec, we assemble these instrcution2vec to function2vect. Last but not least, we also conver the whole function call graph (control flow graph) to an vector, which stands for the whole feature of an Android application. 
 
-The implementation can be found under the 
+The implementation can be found under the code_graph_embedding folder. 
 ### Network Traffic feature extraction
