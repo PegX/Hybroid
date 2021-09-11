@@ -1,0 +1,5 @@
+sklearn
+networkx
+progressbar
+tensorflow=1.14
+progressbar

@@ -1,0 +1,14 @@
+# Static Analysis and Graph Neural Network
+In this part of our work, we describe how to do static Analysis on Android Application, and how to extract call graph, control flow graph from Android apps. Last but not least, we also present the method to use graph neural network to conver the application's graph representation to vectors.
+
+## Dependencies
+
+## Experimental Setup
+
+## Steps
+
+### Static program analyzing and graph extracting
+
+### Opcode embedding and function/basicBlock embedding
+
+### Convert the graph representation to vectors

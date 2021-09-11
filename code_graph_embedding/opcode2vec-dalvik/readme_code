@@ -1,0 +1,52 @@
+# Step 1.
+#Here, we use size = 64        
+embedding_name = "embedding_matrix_opcode_"+size+".npy"
+print(embedding_name)
+# Load .npy file
+self.embedding = np.load(embedding_name)
+
+# Step 2
+self.index = []
+self.instr2index = []
+
+#instruction.txt includes all opcodes
+with  open("instruction.txt","r") as fd:
+    inst2index = fd.readlines()
+    for i in  range(len(inst2index)):
+        self.index.append(i)
+        self.instr2index.append(inst2index[i][:-1])
+    self.index2instuction = dict(zip(self.instr2index,self.index))
+
+#here, the forth parameter - instructions - is the opcodes your get from methods
+encoded_label2 = self.functionNode2vec(self.embedding,self.index2instuction,self.instr2index,instructions)
+
+def functionNode2vec(self,embedding,index2instuction,instr2index,instructions):
+        """ Transfrom the function/node in call graph to vector"""
+        # First step: instruction2vec
+        instrValues = []
+        instrKeys = []
+        for inst in instructions:
+            if inst in instr2index:
+                vector = embedding[index2instuction[inst]]
+                instrKeys.append(inst)
+                instrValues.append(vector)
+            else:
+                print(inst)
+                instrKeys.append(inst)
+                inst = 'UNK'
+                vector = embedding[index2instuction[inst]]
+                instrValues.append(vector)
+        # Here, I just use sum_average to get the function embedding. In your case, you should get basic-block embedding
+        # Second step: function embedding: func2vec
+        if self.function_embedding == 'mean':
+            sum_average = np.zeros([len(vector)])
+            for i in range(len(instrValues)):
+                sum_average += instrValues[i]
+
+            if len(instrKeys) != 0:
+                sum_average=sum_average/len(instructions)
+            else:
+                pass
+            function_embedding = sum_average
+            return function_embedding
+
