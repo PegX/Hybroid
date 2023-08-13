@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+<key attr.name="description" attr.type="string" for="node" id="d5"/>
+<key for="node" id="d6" yfiles.type="nodegraphics"/>
+<key for="edge" id="d9" yfiles.type="edgegraphics"/>
+<graph edgedefault="directed" id="G">
+<node id="0">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="405.000000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+&lt;init&gt;
+(Landroid/support/v4/content/AsyncTaskLoader;)V</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="1">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="160.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8510&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8690&gt;
+a &lt;androguard.core.bytecodes.dvm.Instruction21c object at 0x7fccb13e8450&gt;
+e &lt;androguard.core.bytecodes.dvm.Instruction11n object at 0x7fccb13e86d0&gt;
+10 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8650&gt;
+16 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8850&gt;
+1a &lt;androguard.core.bytecodes.dvm.Instruction10x object at 0x7fccb13e84d0&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="2">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="772.500000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+access$000
+(Landroid/support/v4/content/AsyncTaskLoader$LoadTask;)Ljava/util/concurrent/CountDownLatch;</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="3">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="80.000000" width="555.000000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e84d0&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8510&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="4">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="405.000000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+doInBackground
+([Ljava/lang/Object;)Ljava/lang/Object;</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="5">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="112.000000" width="555.000000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction21c object at 0x7fccb13e8510&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e84d0&gt;
+a &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8690&gt;
+c &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8450&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="6">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="390.000000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+doInBackground
+([Ljava/lang/Void;)Ljava/lang/Object;</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="7">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="144.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8450&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8510&gt;
+a &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e84d0&gt;
+c &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8690&gt;
+10 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e86d0&gt;
+14 &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8650&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="8">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="112.500000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+onCancelled
+()V</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="9">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="144.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8650&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8450&gt;
+8 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8510&gt;
+e &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8690&gt;
+12 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e86d0&gt;
+18 &lt;androguard.core.bytecodes.dvm.Instruction10x object at 0x7fccb13e84d0&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="10">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="382.500000"/>
+<y:Fill color="#9333FF" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0:d
+	(Ljava/lang/Throwable; -&gt; 1a onCancelled-BB@0x1a)
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="11">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="112.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+1a &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8790&gt;
+1c &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8850&gt;
+20 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8590&gt;
+26 &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8610&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="12">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="262.500000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+onPostExecute
+(Ljava/lang/Object;)V</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="13">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="128.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8550&gt;
+4 &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8710&gt;
+a &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8750&gt;
+e &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e87d0&gt;
+14 &lt;androguard.core.bytecodes.dvm.Instruction10x object at 0x7fccb13e8490&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="14">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="397.500000"/>
+<y:Fill color="#9333FF" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0:9
+	(Ljava/lang/Throwable; -&gt; 16 onPostExecute-BB@0x16)
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="15">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="112.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+16 &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8890&gt;
+18 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8810&gt;
+1c &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e88d0&gt;
+22 &lt;androguard.core.bytecodes.dvm.Instruction11x object at 0x7fccb13e8910&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="16">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="48.000000" width="52.500000"/>
+<y:Fill color="#FF0000" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+run
+()V</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<node id="17">
+<data key="d6">
+<y:ShapeNode>
+<y:Geometry height="128.000000" width="562.500000"/>
+<y:Fill color="#FFCC00" transparent="false"/>
+<y:NodeLabel alignment="left" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" modelName="internal" modelPosition="c" textColor="#000000" visible="true">
+0 &lt;androguard.core.bytecodes.dvm.Instruction11n object at 0x7fccb13e8950&gt;
+2 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e8990&gt;
+6 &lt;androguard.core.bytecodes.dvm.Instruction22c object at 0x7fccb13e89d0&gt;
+a &lt;androguard.core.bytecodes.dvm.Instruction35c object at 0x7fccb13e8a10&gt;
+10 &lt;androguard.core.bytecodes.dvm.Instruction10x object at 0x7fccb13e8a50&gt;
+</y:NodeLabel>
+</y:ShapeNode>
+</data>
+</node>
+<edge id="0" source="0" target="1">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="1" source="2" target="3">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="2" source="4" target="5">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="3" source="6" target="7">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="4" source="10" target="9">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="5" source="8" target="9">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="6" source="14" target="13">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="7" source="12" target="13">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+<edge id="8" source="16" target="17">
+<data key="d9">
+<y:PolyLineEdge>
+<y:Arrows source="none" target="standard"/>
+<y:LineStyle color="#0000FF" type="line" width="1.0"/>
+</y:PolyLineEdge>
+</data>
+</edge>
+</graph>
+</graphml>
